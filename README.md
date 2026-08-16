@@ -2,8 +2,8 @@
 
 # CASTA FINA
 
-**Gorras de tiraje limitado, certificadas pieza por pieza.**
-Herencia urbana, hechura fina.
+**Limited-run caps, certified piece by piece.**
+Urban heritage, fine craftsmanship.
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -14,63 +14,63 @@ Herencia urbana, hechura fina.
 
 <br />
 
-## Vista previa
+## Preview
 
 <div align="center">
 
 ### Desktop
 
-<img src="public/Desktop.png" alt="Casta Fina — vista desktop" width="100%" />
+<img src="public/Desktop.png" alt="Casta Fina — desktop view" width="100%" />
 
 <br /><br />
 
 ### Mobile
 
-<img src="public/Mobile.png" alt="Casta Fina — vista mobile" width="320" />
+<img src="public/Mobile.png" alt="Casta Fina — mobile view" width="320" />
 
 </div>
 
 <br />
 
-## Sobre el proyecto
+## About the project
 
-Casta Fina es un sitio de una sola página construido para una marca de gorras de streetwear de tiraje limitado. El concepto de diseño toma prestado el lenguaje de los certificados de autenticidad y los libros de origen — números de serie, garantías, piezas numeradas — y lo aplica a una estética urbana oscura.
+Casta Fina is a single-page site built for a limited-run streetwear cap brand. The design concept borrows the language of certificates of authenticity and provenance books — serial numbers, warranties, numbered pieces — and applies it to a dark urban aesthetic.
 
-### Características
+### Features
 
-- **Hero de scroll interactivo** — la pieza destacada aparece y crece conforme el usuario hace scroll o desliza, con el título y subtítulo desvaneciéndose en la transición.
-- **Catálogo** — grid de producto con imágenes reales, numeración de pieza y línea de colección.
-- **Herencia / Certificado de proceso** — sección editorial con los pasos de manufactura.
-- **Certificación** — grid tipo *bento* con efecto de brillo interactivo en el borde (sigue el cursor).
-- **Voces** — carrusel de testimonios con auto-avance, flechas (desktop) y deslizar con el dedo (mobile).
-- **Lista de espera + WhatsApp** — formulario de contacto y enlace directo a WhatsApp.
-- **Navegación funcional de una sola página** — anclas con scroll suave que compensan la altura del header; menú lateral en mobile con fondo desenfocado.
-- **Totalmente responsivo** — de mobile a desktop, con tipografía fluida y layouts que se reacomodan, no solo se encogen.
+- **Interactive scroll hero** — the featured piece appears and grows as the user scrolls or swipes, with the title and subtitle fading during the transition.
+- **Catalog** — product grid with real photography, piece numbering, and collection line.
+- **Heritage / Process certificate** — editorial section with the manufacturing steps.
+- **Certification** — *bento*-style grid with an interactive glow effect on the border (follows the cursor).
+- **Voices** — testimonial carousel with auto-advance, arrows (desktop), and swipe (mobile).
+- **Waitlist + WhatsApp** — contact form and direct link to WhatsApp.
+- **Functional single-page navigation** — smooth-scroll anchors that account for header height; mobile side menu with a blurred background.
+- **Fully responsive** — from mobile to desktop, with fluid typography and layouts that rearrange, not just shrink.
 
-### Stack técnico
+### Tech stack
 
-| Categoría | Tecnología |
+| Category | Technology |
 |---|---|
 | Framework | [Next.js 16](https://nextjs.org) (App Router, Turbopack) |
-| Lenguaje | TypeScript |
-| Estilos | Tailwind CSS v4 |
-| Animación | Framer Motion |
-| Componentes | Convención shadcn/ui (`components/ui`) |
-| Iconos | lucide-react |
-| Tipografía | Big Shoulders (display) + Archivo (texto) vía `next/font` |
+| Language | TypeScript |
+| Styling | Tailwind CSS v4 |
+| Animation | Framer Motion |
+| Components | shadcn/ui convention (`components/ui`) |
+| Icons | lucide-react |
+| Typography | Big Shoulders (display) + Archivo (text) via `next/font` |
 
 <br />
 
-## Empezar
+## Getting started
 
 ```bash
 npm install
 npm run dev
 ```
 
-Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Otros comandos disponibles:
+Other available commands:
 
 ```bash
 npm run build   # build de producción
@@ -80,7 +80,7 @@ npm run lint    # revisa el código con ESLint
 
 <br />
 
-## Estructura del proyecto
+## Project structure
 
 ```
 app/
@@ -103,9 +103,11 @@ public/
 
 <br />
 
-## Personalización
+## Customization
 
-- **Catálogo**: edita el arreglo en `lib/products.ts` (nombre, línea, precio, imagen, alt).
-- **WhatsApp**: cambia el número y el mensaje en `lib/config.ts`.
-- **Colores**: la paleta (fondo, acento *cobalt*, acento *oxblood*) vive como variables `oklch()` en `app/globals.css`.
-- **Copy**: cada sección es un componente independiente en `components/site/`, con el texto directamente en el JSX.
+- **Catalog**: edit the array in `lib/products.ts` (name, line, price, image, alt).
+- **WhatsApp**: change the number and message in `lib/config.ts`.
+- **Colors**: the palette (background, *cobalt* accent, *oxblood* accent) lives as `oklch()` variables in `app/globals.css`.
+- **Copy**: each section is a standalone component in `components/site/`, with the text directly in the JSX.
+</content>
+</invoke>
